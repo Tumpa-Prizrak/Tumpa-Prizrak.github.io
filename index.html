@@ -1,16 +1,24 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>Paused till 26.03</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="script.js"></script>
-</head>
-
-<body>
-    <h1 id="work">Work in progress...</h1>
-</body>
-
+  </head>
+  <body>
+    <section class="CheckBox">
+      <form name="authentication" id="authentication" class="authentication">
+        <label for="username">Enter your username :</label>
+        <br>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="password">Enter your password :</label>
+        <br>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+        <input id="sub" type="submit" value="Submit" onclick="Verify();"></input>
+      </form>
+    </section>
+  </body>  
 </html>
